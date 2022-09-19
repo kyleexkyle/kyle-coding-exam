@@ -11,7 +11,7 @@
 
             <form method="get" action="{{ route('video.index') }}">
 
-                <input name="search" class="rounded w-full" placeholder="Search ... " type="search">
+                <input name="search" class="rounded w-full" placeholder="Search ... " value="cats" type="search">
                 <button class="bg-red-300 p-3" type="submit">Search</button>
             </form>
 
